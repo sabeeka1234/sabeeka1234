@@ -1,0 +1,48 @@
+body {
+  background-color: crimson;
+}
+.nave {
+  background-color: blueviolet;
+  height: 60px;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  font-size: small;
+  color: blue;
+  font-weight: bolder;
+  text-decoration: double;
+  margin-top: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 30px;
+ 
+}
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu li:hover {
+  color: tomato;
+  background-color: blueviolet;
+}
+img {
+  height: 60px;
+}
+.rose{
+  font-family: 'Times New Roman', 
+  font-size :  small;
+  margin-top:  30px;
+  margin-left:  70px;
+}
+.banner{
+  background-image:url(../photo/keerthi.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 500px;
+
+}
+
